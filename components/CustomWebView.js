@@ -40,7 +40,7 @@ export default function App() {
     <View style={{ flex: 1 }}>
       <WebView
         ref={webViewRef}
-        source={{ uri: 'https://app.superametas.com' }} // Replace with your website URL
+        source={{ uri: 'https://app.superametas.com' }}
         javaScriptEnabled={true}
         originWhitelist={['*']}
         allowFileAccess={true} // Allow access to files from a content:// URL
